@@ -9,7 +9,7 @@ Session = sessionmaker(bind=engine)
 
 
 def task2_insert_departments_and_students(session):
-    """Step 81: Add 3 Department objects and 5 Student objects."""
+   
     departments = [
         Department(dept_name="Computer Science", hod_name="Dr. Ramesh Kumar", budget=850000.00),
         Department(dept_name="Electronics", hod_name="Dr. Priya Nair", budget=620000.00),
